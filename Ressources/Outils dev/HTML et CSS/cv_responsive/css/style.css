@@ -1,0 +1,576 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text);
+    font-size: 1.6rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.red-divider {
+    width: 30%;
+    height: 1px;
+    margin: 1rem auto;
+    background-color: var(--yes);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+/*menu */
+
+.navbar {
+    background: var(--ok);
+    color: var(--background);
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-nav .navbar-collapse {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li a {
+    color: white;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: var(--grey);
+    transition: all 0.2s;
+}
+
+.navbar .navbar-nav .navbar-default .navbar-toggle {
+    border-style: none;
+}
+
+.navbar .navbar-nav .icon-bar {
+    background-color: var(--background);
+    color: white;
+}
+
+
+/* about */
+
+#about {
+    background: var(--ok);
+    padding-top: 100px;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+#about .profile-picture {
+    text-align: center;
+    margin: 2rem auto;
+    float: none;
+}
+
+#about .heading h1 {
+    color: var(--background);
+}
+
+#about .heading h1:hover {
+    color: white;
+}
+
+#about .heading h4 {
+    color: var(--grey);
+}
+
+#about .button1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--background);
+    border: 1px solid var(--background);
+    border-radius: 10px;
+    padding: 1rem 4rem;
+    display: inline-block;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s;
+}
+
+#about .button1:hover {
+    background: var(--background);
+    color: var(--yes);
+    text-decoration: none;
+}
+
+
+/* skills */
+
+#skills {
+    background-color: var(--background);
+    padding-bottom: 5rem;
+}
+
+#skills .heading h2 {
+    color: var(--ok);
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#skills .progress {
+    height: 100%;
+    border-radius: 1rem;
+    backface-visibility: var(--background);
+}
+
+#skills .progress-bar {
+    background: var(--ok);
+    text-shadow: 1px 1px 1px var(--hint);
+    color: #333;
+    justify-content: center;
+    /*pour intégrer les différents logo de chacune des techno*/
+}
+
+#skills .progress-bar i {
+    font-size: 0.5rem;
+    text-align: center;
+    position: center;
+}
+
+#skills .progress-bar .html {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #ff7f50;
+}
+
+#skills .progress-bar .css {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #70a1ff;
+}
+
+#skills .progress-bar .sass {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #ff6b81;
+}
+
+#skills .progress-bar .javascript {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #eccc68;
+}
+
+#skills .progress-bar .bootstrap {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #9c88ff;
+}
+
+#skills .progress-bar .php {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #9c88ff;
+}
+
+#skills .progress-bar .git {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #dfe6e9;
+}
+
+#skills .progress-bar .wordpress {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #009432;
+}
+
+#skills .progress-bar .symfony {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+#skills .progress-bar .fa-java {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+#skills .progress-bar .fa-database {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #22a6b3;
+}
+
+#skills .progress-bar .fa-angular {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: #e84118;
+}
+
+
+/*experiences*/
+
+#experiences {
+    background: var(--ok);
+    padding-bottom: 5rem;
+}
+
+#experiences .heading h2 {
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#experiences .timeline {
+    position: relative;
+    padding: 2rem 1rem;
+}
+
+#experiences .timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    content: " ";
+    background: var(--background);
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+#experiences .timeline>li {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#experiences .timeline>li:after {
+    clear: both;
+}
+
+#experiences .timeline>li:before,
+#experiences .timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+#experiences .timeline>li .timeline-badge {
+    color: var(--ok);
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 1.6rem;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 50%;
+    background-color: var(--background);
+}
+
+#experiences .timeline-panel-container {
+    width: 50%;
+    float: left;
+}
+
+#experiences .timeline-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+#experiences .timeline-panel {
+    width: 90%;
+    float: right;
+    border: 1px solid var(--background);
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    position: relative;
+    background: var(--background);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+#experiences .timeline-panel-container-inverted .timeline-panel {
+    margin-left: 40px;
+    float: left;
+}
+
+#experiences .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid var(--background);
+    border-right: 0 solid var(--background);
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+#experiences .timeline-panel-container-inverted .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+#experiences .timeline-heading h3 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#experiences .timeline-heading h4 {
+    font-size: 1.1rem;
+    color: var(--ok);
+}
+
+#experiences .timeline-heading p {
+    font-size: 0.5rem;
+    color: var(--text);
+}
+
+#experiences .glyphicon-time {
+    font-size: 1.5rem;
+    color: var(--ok);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* education */
+
+#education {
+    padding-bottom: 5rem;
+    background-color: var(--background);
+}
+
+#education .heading h2 {
+    padding: 2rem;
+    color: var(--ok);
+    text-align: center;
+}
+
+#education .education-block {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid var(--ok);
+    background: var(--grey);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#education .education-block h5 {
+    color: var(--ok);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#education .education-block .glyphicon {
+    font-size: 2.5rem;
+}
+
+#education .education-block h4 {
+    font-size: 2.5rem;
+    color: var(--ok);
+}
+
+#education .education-block h6 {
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+#education .education-block .red-divider {
+    margin-bottom: 1rem;
+    background: var(--ok);
+    height: 0.1rem;
+}
+
+#education .education-block span {
+    color: var(--ok);
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+
+
+/* PORFOLIO */
+
+#porfolio {
+    background: var(--ok);
+}
+
+#porfolio .heading h2 {
+    color: white;
+    text-align: center;
+}
+
+#porfolio .thumbnail img {
+    width: 350px;
+    height: 200px;
+    filter: grayscale(100%);
+    box-sizing: content-box;
+    -webkit-filter: grayscale(100%);
+}
+
+#porfolio .thumbnail img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+
+/* footer */
+
+footer {
+    background-color: white;
+    padding: 1rem;
+    margin: 0;
+    height: 80px;
+    text-align: center;
+}
+
+footer .glyphicon {
+    font-size: 2.5rem;
+    margin: 0;
+    color: var(--ok);
+    height: 3rem;
+}
+
+footer .glyphicon:hover {
+    font-size: 2.7rem;
+    color: var(--ok);
+    transition: 0.3s;
+}
+
+footer p {
+    color: var(--ok);
+    padding: 1rem;
+}
+
+
+/*Formulaire */
+
+#contact {
+    background-color: white;
+    text-align: center;
+    padding: 2rem 3rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 3rem;
+    color: var(--ok);
+}
+
+#contact form {
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact form .prefix {
+    background: linear-gradient(to right, var(--ok), var(--yes));
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+#contact form button {
+    background: var(--background);
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#contact form button:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#contact form button .postfix {
+    background: linear-gradient(to right, var(--ok), var(--yes));
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 2rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#contact form input {
+    background: var(--grey);
+    outline: 0;
+    border: 0;
+    padding: 1rem 2rem;
+    min-width: 300px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+#contact form input .placeholder {
+    color: var(--ok);
+}

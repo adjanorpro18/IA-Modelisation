@@ -1,0 +1,13 @@
+:root {
+    font-family: "Muli", sans-serif;
+    --dark: #eb3b5a;
+    --light: #fc5c65;
+    --ok: #3742fa;
+    --yes: #6c5ce7;
+    --primary: #95a5a6;
+    --text: #2d3436;
+    --hint: #2d3436;
+    --grey: #ddd;
+    --background: #ffffff;
+    --font-family: var(--font-family);
+}

@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proadjanor18/projet-cv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/proadjanor18/projet-cv/issues"
+  },
+  "homepage": "https://github.com/proadjanor18/projet-cv#readme",
+  "description": ""
+}
