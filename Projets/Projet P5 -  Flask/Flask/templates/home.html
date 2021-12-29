@@ -11,10 +11,23 @@
 </head>
 
 <body>
-    <h1 class="title">{{message}}</h1>
-    <a href="{{url_for('secondPage')}}">Allez sur la seconde page</a>
-    <a href="{{url_for('register')}}">Tester le formulaire</a>
-    <a href="{{url_for('users')}}">Utilisateurs Inscrits</a>
+
+
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="{{url_for('register')}}">Formulaire</a></li>
+            <li><a href="{{url_for('users')}}">Utilisateurs</a></li>
+            <li><a href="{{url_for('secondPage')}}">About</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1 class="title">{{message}}</h1>
+    </div>
+
+
+
 
 </body>
 

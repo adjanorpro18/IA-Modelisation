@@ -8,24 +8,31 @@
     <title>Utilisateurs| Inscrits</title>
 </head>
 
-<body>
-    <table border_all>
-        <thead>
-            <th>Prénom</th>
-            <th>Nom</th>
-            <th>Sexe</th>
-            <th>Pseudo</th>
-        </thead>
-        {% for row in rows %}
-        <tr>
-            <td>{{row[0]}}</td>
-            <td>{{row[1]}}</td>
-            <td>{{row[2]}}</td>
-            <td>{{row[3]}}</td>
+<body class="user_body">
 
-        </tr>
-        {% endfor %}
-    </table>
+    <div class="user_style">
+        <h3>Listes des Utilisateurs inscrits </h3>
+        <a href="{{url_for('hello')}}">Accueil</a>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Sexe</th>
+                <th>Pseudo</th>
+            </thead>
+            {% for row in rows %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+                <td>{{row[3]}}</td>
+
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
 </body>
 
 </html>

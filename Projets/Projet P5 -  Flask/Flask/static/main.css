@@ -1,5 +1,9 @@
+* {
+    background-color: rgb(68, 101, 212);
+}
+
 .title {
-    color: rgb(24, 24, 92);
+    color: aliceblue;
     text-align: center;
 }
 
@@ -27,7 +31,7 @@ fieldset {
 }
 
 legend {
-    color: #1114d8;
+    color: #FAFAFA;
     font-weight: bold
 }
 
@@ -76,7 +80,53 @@ input[type=reset] {
     cursor: pointer;
 }
 
-table {
-    border-radius: 1px;
-    border: #2115ca;
+
+/* UTILISATEURS INSCRITS*/
+
+.table {
+    border: 1rem solid #2115ca;
+    border-width: thick;
+    text-align: center;
+}
+
+.user_style {
+    text-align: center;
+    display: inline;
+    font-size: 12px;
+}
+
+.user_body {
+    background-color: rgb(68, 101, 212);
+}
+
+
+/* HOMEPAGE */
+
+li {
+    border-right: 1px solid #bbb;
+    display: inline;
+    float: left;
+    font-size: 14px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }

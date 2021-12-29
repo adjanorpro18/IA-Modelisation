@@ -11,36 +11,40 @@
 
 <body>
 
-    <h2>{{message}}</h2>
-    <a href="{{url_for('hello')}}">Home</a>
+    <div>
+        <h3>{{message}}</h3>
+        <a href="{{url_for('hello')}}">Accueil</a>
+    </div>
 
-    <form action="{{ url_for('register') }}" method="POST">
-        <fieldset enabled>
-            <legend>Inscription</legend>
-            <div>
-                <label for="firstname">Prénom: </label>
-                <input type="text" name="firstname">
-            </div>
-            <div>
-                <label for="lastname">Nom: </label>
-                <input type="text" name="lastname">
-            </div>
-            <div>
-                <label for="sexe">Sexe: </label>
-                <select name="sexe" id="pet-select">
+    <div>
+        <form action="{{ url_for('register') }}" method="POST">
+            <fieldset enabled>
+                <legend>Inscription</legend>
+                <div>
+                    <label for="firstname">Prénom: </label>
+                    <input type="text" name="firstname">
+                </div>
+                <div>
+                    <label for="lastname">Nom: </label>
+                    <input type="text" name="lastname">
+                </div>
+                <div>
+                    <label for="sexe">Sexe: </label>
+                    <select name="sexe" id="pet-select">
                 <option value="">--Selectionnez une option--</option>
                 <option value="Masculin">Masculin</option>
                 <option value="Feminin">Féminin</option>
             </select>
-            </div>
-            <div>
-                <label for="pseudo">Pseudo: </label>
-                <input type="text" name="pseudo">
-            </div>
+                </div>
+                <div>
+                    <label for="pseudo">Pseudo: </label>
+                    <input type="text" name="pseudo">
+                </div>
 
-            <div><input type="submit" value=Register></div>
-        </fieldset>
-    </form>
+                <div><input type="submit" value=Register></div>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
