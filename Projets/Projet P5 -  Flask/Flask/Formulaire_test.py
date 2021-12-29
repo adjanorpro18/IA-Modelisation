@@ -2,7 +2,11 @@
 # creation de la page  Helo Word
 
 from flask import Flask, render_template, request
+import mysql.connector as mariadb
 app = Flask(__name__)
+
+conn = mariadb.connect(host='localhost', user='root', password='secret', database='flask_db')
+
 
 
 # Définition de la route pour la page d'accueil
@@ -27,15 +31,29 @@ def testForm():
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
-  firstname = request.form['firstname']
-  lastname = request.form['lastname']
-  sexe = request.form['sexe']
-  title = "Mr" if sexe == "Masculin" else "Mme" # ternaire pour tester la condition 
-  pseudo = request.form['pseudo']
+  if (request.method == 'POST'):
+    firstname = request.form['firstname']
+    lastname = request.form['lastname']
+    sexe = request.form['sexe']
+    title = "Mr" if sexe == "Masculin" else "Mme" # ternaire pour tester la condition 
+    pseudo = request.form['pseudo']
+    cur = conn.cursor()
+    cur.execute("INSERT INTO Users VALUES ('{}','{}','{}','{}')".format(firstname, lastname, sexe, pseudo))
+    conn.commit()
+    return render_template("form.html", message= f" Bonjour {title} {firstname} {lastname}, votre nom d'utilisateur est {pseudo} et vos informations ont été bien enregistrées en base de données ! ")
+  else:
+    return render_template("users.html")
+
+    
   
-  return render_template("form.html", message= f" Bonjour {title}, {firstname}, {lastname}, votre nom d'utilisateur est {pseudo} ")
 
-
+# Affichage des données de la base de données
+@app.route('/users', methods=['GET'])
+def users():
+  cur = conn.cursor()
+  cur.execute("SELECT * FROM Users")
+  rows = cur.fetchall()
+  return render_template('users.html',rows=rows) 
 
 #Lancement de la page au moment du demarrage de l'application
 
