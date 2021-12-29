@@ -17,14 +17,24 @@ def hello():
 def secondPage():
   return render_template("second_page.html")
 
-# Définition de la route pour la page du formulaire
+#route d a'ffichage du formualire
 
-@app.route('/register', methods=['POST', 'GET'])
+@app.route('/register')
+def testForm():
+  return render_template("test_formulaire.html")
+
+# Définition de la route pour soulmettre le formulaire en methode POST
+
+@app.route('/register', methods=['GET', 'POST'])
 def register():
-  form = request.form['firstname', 'lastname', 'sexe', 'pseudo']
-  processed_form = form.capitalize()
+  firstname = request.form['firstname']
+  lastname = request.form['lastname']
+  sexe = request.form['sexe']
+  title = "Mr" if sexe == "Masculin" else "Mme" # ternaire pour tester la condition 
+  pseudo = request.form['pseudo']
+  
+  return render_template("form.html", message= f" Bonjour {title}, {firstname}, {lastname}, votre nom d'utilisateur est {pseudo} ")
 
-  return render_template("test_formulaire.html", form=processed_form)
 
 
 #Lancement de la page au moment du demarrage de l'application

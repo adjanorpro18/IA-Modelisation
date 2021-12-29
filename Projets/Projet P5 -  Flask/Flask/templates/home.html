@@ -13,36 +13,8 @@
 <body>
     <h1 class="title">{{message}}</h1>
     <a href="{{url_for('secondPage')}}">Allez sur la seconde page</a>
+    <a href="{{url_for('register')}}">Tester le formulaire</a>
 
-
-    </form>
-    <form action="#" method="POST">
-        <fieldset enabled>
-            <legend>Inscription</legend>
-            <div>
-                <label for="fisrtname">Prénom: </label>
-                <input type="text" name="firstname">
-            </div>
-            <div>
-                <label for="lastname">Nom: </label>
-                <input type="text" name="lastname">
-            </div>
-            <div>
-                <label for="sexe">Sexe: </label>
-                <select name="pets" id="pet-select">
-                    <option value="">--Selectionnez une option--</option>
-                    <option value="Masculin">Masculin</option>
-                    <option value="Feminin">Féminin</option>
-                </select>
-            </div>
-            <div>
-                <label for="pseudo">Pseudo: </label>
-                <input type="text" name="pseudo">
-            </div>
-
-            <div><button type="submit">Valider</button></div>
-        </fieldset>
-    </form>
 </body>
 
 </html>

@@ -5,23 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autenfication</title>
+    <title>Formulaire|Test</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 </head>
 
 <body>
 
-    <h2>{{form}}</h2>
+    <h2>{{message}}</h2>
 
-    {% if sexe == 'Masculin'%}
-    <h3> Bonjour Mr {{firstaname}} {{lastname}}, votre nom d'utilisateur est {{pseudo}} </h3>
-    {% else if sexe == 'Feminin'%}
+    <form action="{{ url_for('register') }}" method="POST">
+        <fieldset enabled>
+            <legend>Inscription</legend>
+            <div>
+                <label for="firstname">Prénom: </label>
+                <input type="text" name="firstname">
+            </div>
+            <div>
+                <label for="lastname">Nom: </label>
+                <input type="text" name="lastname">
+            </div>
+            <div>
+                <label for="sexe">Sexe: </label>
+                <select name="sexe" id="pet-select">
+                <option value="">--Selectionnez une option--</option>
+                <option value="Masculin">Masculin</option>
+                <option value="Feminin">Féminin</option>
+            </select>
+            </div>
+            <div>
+                <label for="pseudo">Pseudo: </label>
+                <input type="text" name="pseudo">
+            </div>
 
-    <h3> Bonjour Mme {{firstaname}} {{lastname}}, votre nom d'utilisateur est {{pseudo}} </h3>
-
-    {% endif %}
-
-    <a href="{{url_for('home')}}">Home</a>
+            <div><input type="submit" value=Register></div>
+        </fieldset>
+    </form>
 </body>
 
 </html>
