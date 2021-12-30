@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilisateurs| Inscrits</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+
 </head>
 
 <body class="user_body">
 
-    <div class="user_style">
-        <h3>Listes des Utilisateurs inscrits </h3>
-        <a href="{{url_for('hello')}}">Accueil</a>
+    <div>
+        <h2>Listes des Utilisateurs inscrits </h2>
+        <a href="{{url_for('home')}}">Accueil</a>
     </div>
     <div>
-        <table class="table">
+        <table class="list" style="text-align: right;">
             <thead>
                 <th>Prénom</th>
                 <th>Nom</th>

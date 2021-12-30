@@ -1,15 +1,28 @@
+/*GENERAL*/
+
 * {
-    background-color: rgb(68, 101, 212);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(97, 119, 204);
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    float: right
 }
 
 .title {
     color: aliceblue;
-    text-align: center;
+    text-align: right;
 }
 
 .second {
     text-align: center;
-    color: black
+    color: aliceblue;
 }
 
 a {
@@ -38,6 +51,7 @@ legend {
 label {
     margin: 10px;
     display: inline-block;
+    color: aliceblue;
 }
 
 label.inline {
@@ -80,33 +94,35 @@ input[type=reset] {
     cursor: pointer;
 }
 
+div {
+    margin: 2px;
+    padding: 2px;
+}
+
 
 /* UTILISATEURS INSCRITS*/
 
-.table {
-    border: 1rem solid #2115ca;
+.list {
+    border: 0.5rem solid #2115ca;
     border-width: thick;
     text-align: center;
-}
-
-.user_style {
-    text-align: center;
-    display: inline;
-    font-size: 12px;
-}
-
-.user_body {
-    background-color: rgb(68, 101, 212);
+    column-width: auto;
 }
 
 
 /* HOMEPAGE */
 
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 li {
     border-right: 1px solid #bbb;
-    display: inline;
-    float: left;
-    font-size: 14px;
+    text-transform: uppercase;
 }
 
 li:last-child {
@@ -117,16 +133,36 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     text-decoration: none;
 }
 
-ul {
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+a {
+    color: #FAFAFA;
+}
+
+
+/* HOMEPAGE - NAVBAR*/
+
+.main-nav {
+    display: flex;
     list-style-type: none;
     position: fixed;
-    top: 5px;
+    top: 0;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
     overflow: hidden;
+}
+
+.push {
+    margin-left: auto;
+    padding: 3px;
 }

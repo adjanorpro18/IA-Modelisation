@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dataframe</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
 </head>
 
 <body>
+
     <div>
-        <h3>{{message}}</h3>
-
-        <a href="{{url_for('home')}}">Home</a>
+        <a href="{{url_for('home')}}">Accueil</a>
     </div>
+    <div>
+        {% for table in tables%} {{titles[loop.index]}} {{table|safe}} {% endfor %}
 
+    </div>
 </body>
 
 </html>

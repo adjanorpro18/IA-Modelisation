@@ -5,29 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Home|Page</title>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='main.css')}}">
 
 </head>
 
 <body>
 
-
     <nav>
-        <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="{{url_for('register')}}">Formulaire</a></li>
-            <li><a href="{{url_for('users')}}">Utilisateurs</a></li>
+
+        <ul class="main-nav">
+            <li><a href="{{url_for('home')}}" class="active">Home</a></li>
+            <li><a href="{{url_for('register')}}">Form</a></li>
+            <li><a href="{{url_for('users')}}">Users</a></li>
+            <li><a href="{{url_for('fileForm')}}">Stats</a></li>
             <li><a href="{{url_for('secondPage')}}">About</a></li>
+            <li class="push"><a href="#">{{message}}</a></li>
+
         </ul>
     </nav>
-
-    <div>
-        <h1 class="title">{{message}}</h1>
-    </div>
-
-
-
 
 </body>
 
