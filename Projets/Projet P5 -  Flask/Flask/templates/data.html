@@ -15,8 +15,8 @@
     <div>
         <a href="{{url_for('home')}}">Accueil</a>
     </div>
-    <div>
-        {% for table in tables%} {{titles[loop.index]}} {{table|safe}} {% endfor %}
+    <div class="table">
+        {% for table in tables%} {{table|safe}} {% endfor %}
 
     </div>
 </body>
