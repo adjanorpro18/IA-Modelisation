@@ -9,11 +9,9 @@ import numpy as np
 from PIL import Image
 import pickle
 
-
-
 app = Flask(__name__)
 
-conn = mariadb.connect(host='localhost', user='root', password='secret')
+conn = mariadb.connect(host='localhost', user='root', password='')
 cur = conn.cursor()
 cur.execute("CREATE DATABASE IF NOT EXISTS flask_db")
 cur.execute("USE flask_db")
