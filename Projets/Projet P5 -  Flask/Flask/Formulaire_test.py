@@ -6,12 +6,14 @@ from flask import Flask, render_template, request
 import mysql.connector as mariadb
 import pandas as pd
 import numpy as np
+import cv2 as cv
+import base64
 from PIL import Image
 import pickle
 
 app = Flask(__name__)
 
-conn = mariadb.connect(host='localhost', user='root', password='')
+conn = mariadb.connect(host='localhost', user='root', password='root')
 cur = conn.cursor()
 cur.execute("CREATE DATABASE IF NOT EXISTS flask_db")
 cur.execute("USE flask_db")
@@ -68,7 +70,7 @@ def register():
 def users():
   if request.method == 'GET' :
     #cur.execute("CREATE DATABASE IF NOT EXISTS flask_db")
-    cur.execute("USE flask_db")
+    #cur.execute("USE flask_db")
     cur.execute("SELECT * FROM Users")
     lignes = cur.fetchall()
     return render_template('users.html',rows=lignes) 
@@ -108,22 +110,24 @@ def imageForm():
 
   # recuperre l'image chargé par l'utilisateur
 
-from PIL import Image 
-
-
 @app.route('/image', methods=['POST','GET'])
 def imageModel():
   if request.method == 'POST':
-    imagefile = request.files['image_file']
+    imagefile = request.files.get('image_file')
+    encode_file = imagefile.split(',')[1]
+    arr = np.frombuffer(base64.b64encode(encode_file), np.uint8)
+    print(arr)
+   
+
+  
     
     #reconversion du fichier image 
   
-    npimage = Image.open(imagefile)
-    im = np.array(npimage)[:,:]
-    
-    model = pickle.load(open('trained_digits.sav', 'rb'))
-    result= model.predict(im)
-    return render_template("image.html", images = result)
+    # npimage = Image.open(res)
+    # im = np.array(npimage)[:,:, 0]
+    # model = pickle.load(open('digits_trainning.sav', 'rb'))
+    # result= model.predict(im)
+    # return render_template("image.html", images = result)
 
   
   
