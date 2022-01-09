@@ -2,183 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2281422d-21f2-4dc2-8902-56f9941c01dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Admin/Calendrier_Developpeur.se_en_Intelligence_Artificielle_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/Planning_P2.ods" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/Titre Professionnel Simplon/Developpeurse_en_intelligence_artificielle_Mode_demploi_passage_du_titre_1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/Titre Professionnel Simplon/Developpeurse_en_intelligence_artificielle_Template_-_Grille_devaluation_individuelle_de_certificati.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/Titre Professionnel Simplon/RNCP DEVELOPPEUR.EUSE IA Juin 2020 Referentiels Activites Compétences et évaluation SIMPLON.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/Exercices bases Python.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/Exercices bases Python.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/Exercices_bases_correction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/combinaison_texte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/dico_exo10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/la_combinaison" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/liste_eleve1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/tables2a30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/tablesmulti" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/texte8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/un_autre_texte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P1 - Exercices base Python/fichiers_exos_bases/un_texte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P2 - Analyse de données/Projet P2 - Analyse de données.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P2 - Analyse de données/Projet P2 - Analyse de données.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/Base de données - projet SQL.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/Requetes.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/Scripts_database_creation/JunkFood_DB_2021.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/Scripts_database_creation/data_generation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/dump-JunkFood_2021-202112091119.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P3 - SQL - FastFood/dump-JunkFood_2021-202112101241.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/5000_movies.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/5000_movies_bis.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P6 - revisions ML.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Scraping_gross_budget.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/Conception BDD/Modelisation_BDD_SQL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/Conception BDD/Modélisation_BDD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/Intro_SQL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/SQL depuis Python.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/bases exo sql/exo1/departement.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/bases exo sql/exo1/villes_france.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/bases exo sql/exo2/client.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/bases exo sql/exo2/commande.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/bases exo sql/exo2/commande_ligne.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/cours/SQL_cours1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Base de données/SQL/cours/SQL_cours2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/0. Intro aux arbres et forets aleatoires.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/1. Exo1_arbres et forets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/2. Exo2_arbres et forets.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/decision-tree-levels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/decision-tree-overfitting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/decision-tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/diabetes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/diabetes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Arbres de décision et forêts aléatoires/iris.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Maths/Descente de gradient/descente_gradient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Maths/Descente de gradient/descente_gradient_fonction_2_variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Maths/Statistiques descriptives/Stats desc.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Maths/Vecteurs et matrices/Matrices.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Maths/Vecteurs et matrices/vecteurs_matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/1. La régression logistique.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/2. La régression logistique Visualisation 2D.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/3. La régression logistique ROC AUC.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/4. La régression logistique Iris.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/5. La régression logistique Titanic.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/6. La régression logistique digits.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/7. La régression logistique MNIST.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Data/Social_Network_Ads.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Data/email_offer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Data/titanic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Data/winequality-red.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Data/winequality-white.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/Veille logistique.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/img/viz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régression logistique/img/viz2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/Application régression linéaire multiple - ozone.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/Data/apparts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/Data/entreprises.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/Data/ozone.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/La régression linéaire multiple.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/Régression linéaire multiple.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire multiple/implementation_regression_lineaire_multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire simple/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire simple/Régression linéaire avec Python.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire simple/implementation_regression_lineaire_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régression linéaire simple/salaires.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régressions linéaires/Régressions linéaires.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régularisation/Regularisation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Régularisation/prostate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/0. Intro au modèle SVM.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/1. Les SVM_exo1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/2. Les SVM_exo2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/3. Les SVM_exo3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/Social_Network_Ads.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/SVM/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Validation Croisée/Validation_croisée_1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Validation Croisée/Validation_croisée_2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Validation Croisée/Validation_croisée_3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Validation Croisée/winequality-red.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/Validation Croisée/winequality-white.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/Exos_kNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/Iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/Movie-Ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/iris_setosa.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/iris_versicolor.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Machine Learning/k plus proches voisins (kNN)/iris_virginica.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Algorithmique/Un peu d’algorithmique.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Algorithmique/les_algos_en_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/commandes_bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test/biarritz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test/fichier.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test/lorem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test/test2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test_bash.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Bash/test_bash2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/aide_memoire_git_fethi.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/commandes_GIT.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/exos_revisions_git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_03/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_05/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_10/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_20/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_24/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_24/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_25/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_25/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_25/lib/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_30/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_30/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_30/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_30/lib/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_35/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_35/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_35/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_35/lib/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_45/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_45/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_45/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_45/lib/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_50/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_50/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_50/lib/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/files/lab_50/lib/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Outils dev/Git/work/hello/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/0. Les fondamentaux/0. Initiation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/0. Les fondamentaux/1. Exercice - analyse financière.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/0. Les fondamentaux/2. Exercice - lois des grands nombres.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/0. Les fondamentaux/normale_0_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/all-ages.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/fandango-score-comparison.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/food-info.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/recent-grads.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/thanksgiving.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/titanic-survival.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Data/world-alcohol.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Exo1_add.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Exo2_add.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Intro à NumPy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Intro à Pandas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Les objets DataFrames Pandas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/1. Analyse de données/Les objets Series Pandas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/1. VisualisationGraphique_courbes.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/2. VisualisationGraphique_barres.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/3. VisualisationGraphique_nuages.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/4. VisualisationGraphique_histogrammes.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/5. VisualisationGraphique_Seaborn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/6. Exercice Visualisation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/7. Mini-projet NBA.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/8. Bilan_visualisation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/Demographic-Data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/Movie-Ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/exercice_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/fandango-scores.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/recent-grads.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/Data/unrate.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ressources/Python/2. Visualisation graphique/image_graphique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IA-Modelisation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IA-Modelisation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,8 +15,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="notebook:///usr/local/bin/zsh/IA-Modelisation/Projets/Projet P4 - Révisions ML du preprocessing au template/Scraping_gross_budget.ipynb" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="notebook:///Users/enyonadjanor/IA-Modelisation/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -208,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -220,6 +55,7 @@
       <updated>1639865466874</updated>
       <workItem from="1639865468244" duration="261000" />
       <workItem from="1639865841938" duration="432000" />
+      <workItem from="1641674236895" duration="24727000" />
     </task>
     <servers />
   </component>
@@ -231,7 +67,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/ML_projet4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
