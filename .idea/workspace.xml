@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2281422d-21f2-4dc2-8902-56f9941c01dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IA-Modelisation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IA-Modelisation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" afterDir="false" />
     </list>
@@ -55,7 +53,7 @@
       <updated>1639865466874</updated>
       <workItem from="1639865468244" duration="261000" />
       <workItem from="1639865841938" duration="432000" />
-      <workItem from="1641674236895" duration="24727000" />
+      <workItem from="1641674236895" duration="45066000" />
     </task>
     <servers />
   </component>
