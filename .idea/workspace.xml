@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2281422d-21f2-4dc2-8902-56f9941c01dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Projets/Projet P4 - Révisions ML du preprocessing au template/Projet P4 - revisions ML.ipynb" afterDir="false" />
     </list>
@@ -81,6 +82,7 @@
       <workItem from="1641802340550" duration="251000" />
       <workItem from="1641838399934" duration="286000" />
       <workItem from="1641906255814" duration="5242000" />
+      <workItem from="1641920883265" duration="1673000" />
     </task>
     <servers />
   </component>
